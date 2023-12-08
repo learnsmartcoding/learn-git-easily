@@ -28,12 +28,10 @@ By using the --global flag, you are configuring Git to use these settings across
 
 To check your Git configuration, you can use:
 
-<pre>
 ```
 git config --global --get user.name
 git config --global --get user.email
 ```
-</pre>
 
 This will display the configured name and email, allowing you to confirm that your settings have been applied correctly.
 
@@ -92,12 +90,10 @@ If you're working in a team, create a pull request on the GitHub repository. Thi
 Periodically, you should update your local repository with changes from the remote repository. Use the following commands:
 
 
-<pre>
 ```
 git checkout main
 git pull origin main
 ```
-</pre>
 
 
 # Additional Commands:
@@ -176,12 +172,10 @@ If you want to delete a remote branch, you need to use:
 ## Resolve Merge Conflicts:
 If there are merge conflicts during a git pull or git merge, Git will mark the conflicted files. You can use a tool or manually resolve conflicts and then:
 
-<pre>
 ```
 git add file-name
 git merge --continue
 ```
-</pre>
 
 ## Tagging:
 Tagging is used to capture a point in history. To create a lightweight tag: `git tag tag-name`
